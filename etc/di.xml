@@ -3,4 +3,7 @@
     <type name="Magento\CatalogUrlRewrite\Observer\ProductProcessUrlRewriteSavingObserver">
         <plugin name="modify_product_url_key" type="Sergei\ProductUrlRewrite\Plugin\ModifyProductUrlKeyPlugin"/>
     </type>
+    <type name="Magento\CatalogUrlRewrite\Observer\CategoryProcessUrlRewriteSavingObserver">
+        <plugin name="modify_category_url_key" type="Sergei\ProductUrlRewrite\Plugin\ModifyCategoryUrlKeyPlugin"/>
+    </type>
 </config>
